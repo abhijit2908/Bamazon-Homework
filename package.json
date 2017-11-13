@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijit2908/Bamazon-Homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijit2908/Bamazon-Homework/issues"
+  },
+  "homepage": "https://github.com/abhijit2908/Bamazon-Homework#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^4.0.0",
+    "mysql": "^2.15.0"
+  }
+}
