@@ -88,6 +88,8 @@ function updateQuantities(sQuantity,ID){
 			 	console.log("Your total cost for your " + stockName + "is $" + totalPrice);
 
 			 })
+
+			 connection.end();
 		})	
 
 }
