@@ -85,7 +85,7 @@ function updateQuantities(sQuantity,ID){
 			 	var stockName = results[0].product_name
 			 	var stockPrice = results[0].price;
 			 	var totalPrice = parseFloat(sQuantity *stockPrice);
-			 	console.log("Your total cost for your " + stockName + "is $" + totalPrice);
+			 	console.log("Your total cost for your " + stockName + " is $" + totalPrice);
 
 			 })
 
