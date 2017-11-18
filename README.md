@@ -31,7 +31,7 @@ The Manager View allows manager to keep track of available inventory and modify 
 	
 Following  are the options available to the Manager:
 
-![GitHub Logo](/images/bamazon manager options.PNG)
+![GitHub Logo](/images/bamazonmanageroptions.PNG)
 
 * "View Products for Sale":
 
