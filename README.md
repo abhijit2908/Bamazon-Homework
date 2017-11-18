@@ -22,7 +22,7 @@ Customer interface allows user to buy items from Bamazon.
 
 If Customer orders quantity greater than the store currently holds he gets a message about insufficient quantity.
 
-![GitHub Logo](/images/Insufficient Quantity.PNG)
+![GitHub Logo](/images/InsufficientQuantity.PNG)
 
 
 ### 2. Manager Interface.
