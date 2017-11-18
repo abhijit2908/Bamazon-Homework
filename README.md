@@ -7,6 +7,7 @@ Bamazon is a CLI application that allows the user to shop for products in store.
 Bamazon CLI App is developed using Node.js and mySQL.
 
 	* customerview.sql contains sql statements for database and table creation.
+	* supervisorview.sql contains sql statements for table creation and creating data for table.
 	* bamazoncustomer.js contains logic for customer view.
 	* bamazonManager.js  contains logic for Manager view.
 	* bamazonsupervisor.js contains logic for Supervisor view.
