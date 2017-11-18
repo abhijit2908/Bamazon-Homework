@@ -9,8 +9,9 @@ Bamazon CLI App is developed using Node.js and mySQL.
 	* customerview.sql contains sql statements for database and table creation.
 	* bamazoncustomer.js contains logic for customer view.
 	* bamazonManager.js  contains logic for Manager view.
+	* bamazonsupervisor.js contains logic for Supervisor view.
 
-## Bamazon has two interfaces:
+## Bamazon has 3 interfaces:
 
 ### 1. Customer Interface.
 
@@ -50,8 +51,17 @@ Following  are the options available to the Manager:
 ![GitHub Logo](/images/addnewproduct.PNG)
 
 
+### 2. Supervisor Interface.
+
+The Supervisor Interface allows supervisor with two options:
+
+* "View Product Sales by Department":
+
+![GitHub Logo](/images/supervisorsalesview.PNG)
 
 
+* "Create New Department"
 
+![GitHub Logo](/images/supervisoradd.PNG)
 
 	

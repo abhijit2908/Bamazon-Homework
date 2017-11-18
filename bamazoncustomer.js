@@ -108,14 +108,21 @@ var cost_Table = new Table({
 			//console.log(results[0].item_id + " | " + results[0].product_name + " | " + results[0].price + "|" + results[0].stock_quantity );
 			var stockName = results[0].product_name;
 			var stockPrice = results[0].price;
-			var totalPrice = parseFloat(sQuantity *stockPrice);
+			var totalPrice = parseFloat(sQuantity *stockPrice).toFixed(2);
 			console.log("Your total cost for your " + stockName + " is $" + totalPrice);
-			cost_Table.push([results[0].item_id,results[0].product_name,results[0].price,sQuantity,totalPrice]);
+				console.log(totalPrice);
+				console.log(ID);
+				var updateSales = `update Products set Product_Sales = Product_Sales + ${totalPrice} where item_id = ${ID}`;
+				connection.query(updateSales,function(err,results){
+				if(err) throw err;
+				// 	console.log("updating done");
+				})
+				cost_Table.push([results[0].item_id,results[0].product_name,results[0].price,sQuantity,totalPrice]);
 			console.log(cost_Table.toString());
-
+				connection.end();
 		})
 
-		connection.end();
+		
 	})	
 
 }
