@@ -52,7 +52,7 @@ Following  are the options available to the Manager:
 ![GitHub Logo](/images/addnewproduct.PNG)
 
 
-### 2. Supervisor Interface.
+### 3. Supervisor Interface.
 
 The Supervisor Interface allows supervisor with two options:
 
