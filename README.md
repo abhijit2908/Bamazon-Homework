@@ -37,7 +37,7 @@ Following  are the options available to the Manager:
 
 ![GitHub Logo](/images/managerviewsale.PNG)
 
-* "View Low Inventory":
+* "View Low Inventory"(any items with stock quantity below 5):
 
 ![GitHub Logo](/images/managerlowinventory.PNG)
 
